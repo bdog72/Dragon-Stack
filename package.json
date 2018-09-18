@@ -1,0 +1,22 @@
+{
+  "name": "Dragon-Stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start",
+    "backend": "nodemon backend/bin/server",
+    "frontend": "parcel frontend/src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdog72/Dragon-Stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdog72/Dragon-Stack/issues"
+  },
+  "homepage": "https://github.com/bdog72/Dragon-Stack#readme"
+}

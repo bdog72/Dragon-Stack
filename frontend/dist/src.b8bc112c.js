@@ -168,7 +168,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 	return to;
 };
-},{}],12:[function(require,module,exports) {
+},{}],14:[function(require,module,exports) {
 /** @license React v16.5.1
  * react.production.min.js
  *
@@ -398,7 +398,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 }
 
 module.exports = checkPropTypes;
-},{"./lib/ReactPropTypesSecret":32}],13:[function(require,module,exports) {
+},{"./lib/ReactPropTypesSecret":32}],15:[function(require,module,exports) {
 /** @license React v16.5.1
  * react.development.js
  *
@@ -2116,7 +2116,7 @@ if ('development' !== "production") {
     module.exports = react;
   })();
 }
-},{"object-assign":21,"prop-types/checkPropTypes":22}],8:[function(require,module,exports) {
+},{"object-assign":21,"prop-types/checkPropTypes":22}],9:[function(require,module,exports) {
 'use strict';
 
 if ('development' === 'production') {
@@ -2124,7 +2124,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/react.development.js');
 }
-},{"./cjs/react.production.min.js":12,"./cjs/react.development.js":13}],28:[function(require,module,exports) {
+},{"./cjs/react.production.min.js":14,"./cjs/react.development.js":15}],28:[function(require,module,exports) {
 /** @license React v16.5.1
  * schedule.production.min.js
  *
@@ -2563,7 +2563,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/schedule.development.js');
 }
-},{"./cjs/schedule.production.min.js":28,"./cjs/schedule.development.js":29}],14:[function(require,module,exports) {
+},{"./cjs/schedule.production.min.js":28,"./cjs/schedule.development.js":29}],12:[function(require,module,exports) {
 /** @license React v16.5.1
  * react-dom.production.min.js
  *
@@ -2800,7 +2800,7 @@ void 0:t("40");return a._reactRootContainer?(th(function(){Gh(null,null,a,!1,fun
 Ma,Na,Ea.injectEventPluginsByName,qa,Ua,function(a){za(a,Ta)},Jb,Kb,Id,Ga]},unstable_createRoot:function(a,b){Eh(a)?void 0:t("278");return new Dh(a,!0,null!=b&&!0===b.hydrate)}};(function(a){var b=a.findFiberByHostInstance;return Re(n({},a,{findHostInstanceByFiber:function(a){a=md(a);return null===a?null:a.stateNode},findFiberByHostInstance:function(a){return b?b(a):null}}))})({findFiberByHostInstance:Ka,bundleType:0,version:"16.5.1",rendererPackageName:"react-dom"});
 var Nh={default:Mh},Oh=Nh&&Mh||Nh;module.exports=Oh.default||Oh;
 
-},{"react":8,"object-assign":21,"schedule":20}],30:[function(require,module,exports) {
+},{"react":9,"object-assign":21,"schedule":20}],30:[function(require,module,exports) {
 /** @license React v16.5.1
  * schedule-tracking.production.min.js
  *
@@ -3238,7 +3238,7 @@ if ('development' !== "production") {
     exports.unstable_unsubscribe = unstable_unsubscribe;
   })();
 }
-},{}],23:[function(require,module,exports) {
+},{}],24:[function(require,module,exports) {
 'use strict';
 
 if ('development' === 'production') {
@@ -3246,7 +3246,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/schedule-tracking.development.js');
 }
-},{"./cjs/schedule-tracking.production.min.js":30,"./cjs/schedule-tracking.development.js":31}],15:[function(require,module,exports) {
+},{"./cjs/schedule-tracking.production.min.js":30,"./cjs/schedule-tracking.development.js":31}],13:[function(require,module,exports) {
 /** @license React v16.5.1
  * react-dom.development.js
  *
@@ -21484,7 +21484,7 @@ if ('development' !== "production") {
     module.exports = reactDom;
   })();
 }
-},{"react":8,"object-assign":21,"prop-types/checkPropTypes":22,"schedule":20,"schedule/tracking":23}],9:[function(require,module,exports) {
+},{"react":9,"object-assign":21,"prop-types/checkPropTypes":22,"schedule":20,"schedule/tracking":24}],8:[function(require,module,exports) {
 'use strict';
 
 function checkDCE() {
@@ -21520,7 +21520,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.production.min.js":14,"./cjs/react-dom.development.js":15}],6:[function(require,module,exports) {
+},{"./cjs/react-dom.production.min.js":12,"./cjs/react-dom.development.js":13}],6:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -21577,7 +21577,7 @@ var Generation = function (_Component) {
 }(_react.Component);
 
 exports.default = Generation;
-},{"react":8}],4:[function(require,module,exports) {
+},{"react":9}],4:[function(require,module,exports) {
 'use strict';
 
 var _react = require('react');
@@ -21598,11 +21598,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   _react2.default.createElement(
     'h2',
     null,
-    'Dragon Stack From React'
+    'Dragon Stack From React Bozo Beak'
   ),
   _react2.default.createElement(_Generation2.default, null)
 ), document.getElementById('root'));
-},{"react":8,"react-dom":9,"./components/Generation":6}],33:[function(require,module,exports) {
+},{"react":9,"react-dom":8,"./components/Generation":6}],33:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -21632,7 +21632,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49831' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '52297' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
